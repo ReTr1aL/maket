@@ -1,0 +1,309 @@
+header {
+	width: 945px;
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: left;
+}
+
+div.logo {
+	width: 235px;
+	border-right: 1px dashed #BEBEBE;
+	display: inline-block;
+}
+
+div.loz {
+	display: inline-block;
+	vertical-align: middle;
+	height: 50px;
+	margin-left: 20px;
+	color: #BEBEBE;
+}
+
+div.log {
+	float: right;
+	color: #BEBEBE;
+	margin-top: 15px;
+}
+
+div.slash {
+	float: right;
+	color: #BEBEBE;
+	margin-top: 15px;
+}
+
+div.reg {
+	float: right;
+	color: #BEBEBE;
+	margin-top: 15px;
+}
+
+a.reg {
+	color: #BEBEBE;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+a.log {
+	color: #BEBEBE;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+ul.mainmenu {
+	list-style: none;
+	text-align: left;
+	margin-left: -40px;
+}
+
+ul.mainmenu>li {
+	display: inline-block;
+	padding: 15px;
+	background: linear-gradient(white, #BEBEBE);
+	min-width: 100px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+ul.mainmenu>li:hover {
+	color: white;
+	background: blue;
+	cursor: pointer;
+}
+
+div.slider {
+	width: 635px;
+	height: 375px;
+	background-image: url(../images/ufinanca.jpg);
+	display: inline-block;
+	position: relative;
+}
+
+div.bgtable {
+	width: 303px;
+	height: 375px;
+	display: inline-block;
+	background-image: url(../images/ufinanca1.png);
+}
+
+table {
+	width: 264px;
+	height: 286px;
+	border-radius: 5px;
+	border-spacing: 0px;
+	border-left: 1px solid blue;
+	border-bottom: 1px solid blue;
+	text-align: center;
+	background: white;
+	margin-top: 70px;
+	margin-left: 20px;
+}
+
+td {
+	border-top: 1px solid blue;
+	border-right: 1px solid blue;
+}
+
+td.toplast {
+	border-top-right-radius: 5px;
+}
+
+td.topfirst {
+	border-top-left-radius: 5px;
+}
+
+td.bottomfirst {
+	border-bottom-left-radius: 5px;
+}
+
+td.bottomlast {
+	border-bottom-right-radius: 5px;
+}
+
+/*Конец header*/
+
+main {
+	width: 945px;
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: left;
+}
+
+div.content1 {
+	width: 300px;
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+}
+div.content2 {
+	width: 300px;
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+}
+
+h4 {
+	border-bottom:  1px solid black;
+	padding-bottom: 15px;
+}
+
+p {
+	margin-bottom: 15px;
+	font-size: 12px;
+}
+
+div.logonews {
+	width: 35px;
+	height: 35px;
+	background: #696969;
+	border-radius: 5px;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+p.p1 {
+	display: inline-block;
+	width: 250px;
+	margin: 0px;
+	vertical-align: top;
+	padding-top: 1px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+
+div.logonews1 {
+	width: 35px;
+	height: 35px;
+	background: blue;
+	border-radius: 5px;
+	display: inline-block;
+	margin-bottom: 5px;
+	text-align: center;
+	color: white;
+	line-height: 35px;
+	font-weight: 800;
+}
+
+span {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+a.reglink {
+	color: blue;
+}
+
+p.p2 {
+	width: 255px;
+	margin-bottom: 12px;
+}
+
+strong {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/*Конец main*/
+
+div.margin {
+	width: 100%;
+	height: 10px;
+	background: #1C1C1C;
+	margin-top: 20px;
+}
+
+footer {
+	width: 945px;
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: left;
+}
+
+ul.footmenu {
+	list-style: none;
+	text-align: left;
+	margin-left: -40px;
+}
+
+ul.footmenu>li {
+	display: inline-block;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	font-size: 12px;
+}
+
+a.footmenulink {
+	color: black;
+}
+
+div.clr {
+	clear: both;
+}
+
+div.btn1 {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	background: white;
+	border-radius: 50%;
+	right: 20px;
+	bottom: 20px;
+	cursor: pointer;
+}
+
+div.btn2 {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	background: white;
+	border-radius: 50%;
+	right: 55px;
+	bottom: 20px;
+	cursor: pointer;
+}
+
+div.btn2:before {
+	content: "";
+	width: 5px;
+	height: 10px;
+	background: #034394;
+	position: absolute;
+	transform: skewX(-40deg);
+	left: 10px;
+	top: 5px;
+}
+
+div.btn2:after {
+	content: "";
+	width: 5px;
+	height: 10px;
+	background: #034394;
+	position: absolute;
+	transform: skewX(40deg);
+	left: 10px;
+	bottom: 5px;
+}
+
+div.btn1:before {
+	content: "";
+	width: 5px;
+	height: 10px;
+	background: #034394;
+	position: absolute;
+	transform: skewX(40deg);
+	right: 10px;
+	top: 5px;
+}
+
+div.btn1:after {
+	content: "";
+	width: 5px;
+	height: 10px;
+	background: #034394;
+	position: absolute;
+	transform: skewX(-40deg);
+	right: 10px;
+	bottom: 5px;
+}
